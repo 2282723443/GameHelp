@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:drawable="@drawable/ic_zheng_meitu21" android:duration="100"></item>
+<item android:drawable="@drawable/ic_zheng_meitu19" android:duration="100"></item>
+<item android:drawable="@drawable/ic_zheng_meitu18" android:duration="100"></item>
+<item android:drawable="@drawable/ic_zheng_meitu17" android:duration="100"></item>
+<item android:drawable="@drawable/ic_zheng_meitu16" android:duration="100"></item>
+<item android:drawable="@drawable/ic_zheng_meitu15" android:duration="100"></item>
+<item android:drawable="@drawable/ic_zheng_meitu14" android:duration="100"></item>
+<item android:drawable="@drawable/ic_zheng_meitu13" android:duration="100"></item>
+<item android:drawable="@drawable/ic_zheng_meitu12" android:duration="100"></item>
+<item android:drawable="@drawable/ic_zheng_meitu11" android:duration="100"></item>
+<item android:drawable="@drawable/ic_zheng_meitu10" android:duration="100"></item>
+<item android:drawable="@drawable/ic_zheng_meitu9" android:duration="100"></item>
+<item android:drawable="@drawable/ic_zheng_meitu8" android:duration="100"></item>
+<item android:drawable="@drawable/ic_zheng_meitu7" android:duration="100"></item>
+<item android:drawable="@drawable/ic_zheng_meitu6" android:duration="100"></item>
+<item android:drawable="@drawable/ic_zheng_meitu5" android:duration="100"></item>
+<item android:drawable="@drawable/ic_zheng_meitu4" android:duration="100"></item>
+<item android:drawable="@drawable/ic_zheng_meitu3" android:duration="100"></item>
+<item android:drawable="@drawable/ic_zheng_meitu2" android:duration="100"></item>
+<item android:drawable="@drawable/ic_zheng_meitu1" android:duration="100"></item>
+
+
+
+
+</animation-list>

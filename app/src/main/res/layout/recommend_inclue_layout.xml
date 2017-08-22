@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:gravity="center"
+        android:background="#EFEFEF"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="88dp"
+            android:layout_height="1dp"
+            android:background="#6E6E6E"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="热门推荐"
+
+            />
+
+        <TextView
+            android:background="#6E6E6E"
+            android:layout_width="88dp"
+            android:layout_height="1dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linear_lol_layout"
+
+            style="@style/image_wrap">
+
+            <com.wangwei.gamehelp.view.CircleImageView
+                style="@style/navigate_wrap1"
+                android:src="@drawable/ic_lol" />
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/navigate_wrap"
+                android:text="线上LOL" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_wangzhe_layout"
+            style="@style/image_wrap">
+            <com.wangwei.gamehelp.view.CircleImageView
+                style="@style/navigate_wrap1"
+                android:src="@drawable/ic_wangzherongyao" />
+            <TextView
+                style="@style/navigate_wrap"
+                android:text="王者荣耀" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_shouwang_layout"
+            style="@style/image_wrap">
+            <com.wangwei.gamehelp.view.CircleImageView
+                style="@style/navigate_wrap1"
+                android:src="@drawable/ic_shouiwangxianfeng" />
+            <TextView
+                style="@style/navigate_wrap"
+                android:text="守望先锋" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_langren_layout"
+            style="@style/image_wrap">
+            <com.wangwei.gamehelp.view.CircleImageView
+                style="@style/navigate_wrap1"
+                android:src="@drawable/ic_langrensha" />
+            <TextView
+                style="@style/navigate_wrap"
+                android:text="狼人杀组团" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linear_h1z1_layout"
+            android:layout_gravity="center"
+            style="@style/image_wrap">
+            <com.wangwei.gamehelp.view.CircleImageView
+                style="@style/navigate_wrap1"
+                android:src="@drawable/ic_h1z1" />
+            <TextView
+                style="@style/navigate_wrap"
+                android:text="HIZ1" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/image_wrap">
+            <com.wangwei.gamehelp.view.CircleImageView
+                style="@style/navigate_wrap1"
+                android:src="@drawable/ic_shipingliaotian" />
+            <TextView
+                style="@style/navigate_wrap"
+                android:text="视频在线" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/image_wrap">
+            <com.wangwei.gamehelp.view.CircleImageView
+                style="@style/navigate_wrap1"
+                android:src="@drawable/ic_shengyinliaotian" />
+            <TextView
+                style="@style/navigate_wrap"
+                android:text="甜美声音" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/image_wrap">
+            <com.wangwei.gamehelp.view.CircleImageView
+                style="@style/navigate_wrap1"
+                android:src="@drawable/ic_qitayouxi" />
+            <TextView
+                style="@style/navigate_wrap"
+                android:text="其他" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:gravity="center"
+        android:background="#EFEFEF"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="88dp"
+            android:layout_height="1dp"
+            android:background="#6E6E6E"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="大神展示"
+
+            />
+
+        <TextView
+            android:background="#6E6E6E"
+            android:layout_width="88dp"
+            android:layout_height="1dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

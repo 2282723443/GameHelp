@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 按下后的图形配置 -->
+    <item android:drawable="@drawable/shape_button_pressed"
+        android:state_pressed="true"></item>
+
+    <!-- 没有state的item表示匹配所有状态 -->
+    <item android:drawable="@drawable/shape_button_normal">
+
+    </item>
+</selector>

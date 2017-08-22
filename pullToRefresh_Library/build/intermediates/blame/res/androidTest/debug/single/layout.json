@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\MyApplication\\GameHelp\\pullToRefresh_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "D:\\MyApplication\\GameHelp\\pullToRefresh_Library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "D:\\MyApplication\\GameHelp\\pullToRefresh_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "D:\\MyApplication\\GameHelp\\pullToRefresh_Library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "D:\\soft\\GameHelp\\pullToRefresh_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "D:\\soft\\GameHelp\\pullToRefresh_Library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "D:\\soft\\GameHelp\\pullToRefresh_Library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "D:\\soft\\GameHelp\\pullToRefresh_Library\\build\\intermediates\\bundles\\debug\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    }
+]

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.wangwei.gamehelp.SeekActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#303F9F"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="46dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.08">
+
+            <ImageView
+                android:id="@+id/image_Back"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_left"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true">
+            </ImageView>
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/head_hunt_second"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1.35"
+            android:background="#ffffff"
+            android:backgroundTint="#ffffff"
+            android:layout_marginRight="15dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_seek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
+                android:background="@null"
+                android:lines="1"
+                android:maxLength="8"
+                android:hint="请输入内容！！！"
+                android:textColor="#9B9B9B"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="46dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_weight="0.06">
+        <TextView
+            android:id="@+id/btn_seek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="搜索"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#FFFFFF"
+        android:layout_weight="1"
+        >
+        <ListView
+            android:id="@+id/ptrlv_main1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+        <ImageView
+            android:id="@+id/iv_business_loading"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/refreshing_anim"/>
+    </FrameLayout>
+
+</LinearLayout>

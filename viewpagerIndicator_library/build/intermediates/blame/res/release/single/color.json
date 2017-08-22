@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\soft\\GameHelp\\viewpagerIndicator_library\\build\\intermediates\\res\\merged\\release\\color\\vpi__light_theme.xml",
+        "source": "D:\\soft\\GameHelp\\viewpagerIndicator_library\\src\\main\\res\\color\\vpi__light_theme.xml"
+    },
+    {
+        "merged": "D:\\MyApplication\\GameHelp\\viewpagerIndicator_library\\build\\intermediates\\res\\merged\\release\\color\\vpi__light_theme.xml",
+        "source": "D:\\MyApplication\\GameHelp\\viewpagerIndicator_library\\src\\main\\res\\color\\vpi__light_theme.xml"
+    },
+    {
+        "merged": "D:\\soft\\GameHelp\\viewpagerIndicator_library\\build\\intermediates\\res\\merged\\release\\color\\vpi__dark_theme.xml",
+        "source": "D:\\soft\\GameHelp\\viewpagerIndicator_library\\src\\main\\res\\color\\vpi__dark_theme.xml"
+    },
+    {
+        "merged": "D:\\MyApplication\\GameHelp\\viewpagerIndicator_library\\build\\intermediates\\res\\merged\\release\\color\\vpi__dark_theme.xml",
+        "source": "D:\\MyApplication\\GameHelp\\viewpagerIndicator_library\\src\\main\\res\\color\\vpi__dark_theme.xml"
+    }
+]
